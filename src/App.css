@@ -1,5 +1,85 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 10px solid burlywood;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+input[type='text']{
+  width: 100%;
+  padding: 15px;
+  border: 2px solid burlywood;
+  border-radius: 4px;
+  font-weight: bolder;
+}
+
+.add-task {
+  border-radius: 3px;
+  padding: 15px;
+  width: 50%;
+  font-weight: bolder;
+  background-color: burlywood;
+  color: white;
+  margin-top: 30px; 
+  border-style: none;
+}
+
+.add-task:hover {
+  background-color: white;
+  color: burlywood;
+  border: 1px solid burlywood;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h5 {
+  margin: 0;
+}
+
+.delete {
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+  text-align: left;
+  color: rgb(211, 138, 138);
+}
+
+.delete-task-button {
+  width: 20%;
+  background-color: burlywood;
+  color : white;
+  font-weight: bolder;
+  border-radius: 3px;
+  border-style: none;
+  margin-right: 2px;
+}
+
+.delete-task-button:hover {
+  background-color: white;
+  color: burlywood;
+  border : 1px solid burlywood
+}
+
+.delete-items{
+  width: 80%;
+  margin-left: 2px;
+}
+
 .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -36,3 +116,22 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  text-align: left;
+}
+
+.todo {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  height: 60vh;
+  width: 100%;
+}
+
+.task-list {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: white;
+}
+
